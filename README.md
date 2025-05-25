@@ -85,7 +85,7 @@ command! CT execute 'FloatermNew --autoclose=2 zsh -c "g++ % -o %< && python3 /f
 1. **Open your C++ file** (e.g., `1.cpp`).
 2. **Set the problem link** (once per problem):  
    ```
-   :CC https://codeforces.com/contest/2110/problem/B
+   :CC <codeforces_problem_url>
    ```
 3. **Compile and test in a popup:**  
    ```
