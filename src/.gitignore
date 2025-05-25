@@ -23,6 +23,7 @@ __pycache__/
 *.obj
 *.a
 *.so
+*.mp4
 
 # Executables named after your C++ files (e.g., 1, 2, etc.)
 [0-9]
