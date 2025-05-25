@@ -103,12 +103,6 @@ command! CT execute 'FloatermNew --autoclose=2 zsh -c "g++ % -o %< && python3 /f
    ![Step 3](utils/2.png)
 
 ---
-### 4. Demo
-
-See it in action!  
-[🎥 Watch the demo video](file:///home/shibe/Videos/Screencasts/Screencast%20from%202025-05-25%2017-33-12.mp4)
-
-
 
 ## Troubleshooting
 
