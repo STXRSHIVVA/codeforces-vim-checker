@@ -92,7 +92,7 @@ command! CT execute 'FloatermNew --autoclose=2 zsh -c "g++ % -o %< && python3 /f
    ```
 3. **Compile and test in a popup:**
 
-   ![Step 2](utils/2.png)
+   ![Step 2](utils/3.png)
 
    ```
    :CT
@@ -100,7 +100,7 @@ command! CT execute 'FloatermNew --autoclose=2 zsh -c "g++ % -o %< && python3 /f
    - The results will appear in a floating window.
    - The popup will close automatically if all tests pass, or stay open if there’s an error.
 
-   ![Step 3](utils/3.png)
+   ![Step 3](utils/2.png)
 
 ---
 ### 4. Demo
