@@ -83,16 +83,24 @@ command! CT execute 'FloatermNew --autoclose=2 zsh -c "g++ % -o %< && python3 /f
 ### 3. Workflow in Vim/Neovim
 
 1. **Open your C++ file** (e.g., `1.cpp`).
-2. **Set the problem link** (once per problem):  
+2. **Set the problem link** (once per problem):
+
+   ![Step 1](utils/1.png)
+
    ```
    :CC <codeforces_problem_url>
    ```
-3. **Compile and test in a popup:**  
+3. **Compile and test in a popup:**
+
+   ![Step 2](utils/2.png)
+
    ```
    :CT
    ```
    - The results will appear in a floating window.
    - The popup will close automatically if all tests pass, or stay open if there’s an error.
+
+   ![Step 3](utils/3.png)
 
 ---
 ### 4. Demo
