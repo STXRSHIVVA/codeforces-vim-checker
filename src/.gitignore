@@ -1,0 +1,32 @@
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vim/Neovim swap and backup files
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Compiled C++ binaries and object files
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+
+# Executables named after your C++ files (e.g., 1, 2, etc.)
+[0-9]
+
+# OS files
+.DS_Store
+Thumbs.db
